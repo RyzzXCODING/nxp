@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "noxpcost",
+  "version": "${version}",
+  "name": "No XP Cost",
+  "description": "Menghilangkan biaya XP (experience level) saat memakai anvil dan enchanting table. Dengan mod ini kamu bisa memperbaiki item, menggabungkan item, mengganti nama item di anvil, serta memberi enchant di enchanting table tanpa kehilangan experience level sedikit pun. Dibuat oleh Alpoyy.",
+  "authors": [
+    "Alpoyy"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/noxpcost/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.zet.noxpcost.NoXpCostMod"
+    ]
+  },
+  "mixins": [
+    "noxpcost.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
